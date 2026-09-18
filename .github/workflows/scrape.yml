@@ -5,6 +5,12 @@ on:
     - cron: '0 0,2,4,6,8,10,12,14,16,18,20,22 * * *'
       timezone: 'Asia/Shanghai'
   workflow_dispatch:
+  push:
+    paths:
+      - 'news_monitor.py'
+      - 'article_extractor.py'
+      - 'requirements.txt'
+      - '.github/workflows/scrape.yml'
 
 permissions:
   contents: write
