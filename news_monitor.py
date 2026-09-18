@@ -87,11 +87,12 @@ def scrape():
     pending=load(PENDING); sent=load(SENT)
     known={x.get('url') for x in pending}|{x.get('url') for x in sent}
     first_run=not pending and not sent
-    today=now_cn().date().isoformat()
     added=0
-    for item in items:
+    bootstrap_items=items[:20] if first_run else items
+    if first_run:
+        print(f'首次运行：当前页面解析到 {len(items)} 条，最多初始化最近 {len(bootstrap_items)} 条，避免历史新闻一次性灌入。')
+    for item in bootstrap_items:
         if item['url'] in known: continue
-        if first_run and item['published_date']!=f'{now_cn().year}年{now_cn().month}月{now_cn().day}日': continue
         seen=now_cn().isoformat(timespec='seconds')
         rec={**item,'first_seen_at':seen,'bucket_date':bucket_date(seen),'category':category(item['title']),'content':'','content_ok':False}
         try:
