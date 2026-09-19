@@ -440,5 +440,17 @@
     "content": "南海冲突再起：中菲船只为何在争议水域相撞？ (德国之声)",
     "content_ok": false,
     "extract_error": "未找到足够的公开正文；可能是登录墙、付费墙、robots 或页面结构不兼容"
+  },
+  {
+    "title": "怀来恒大“鬼城”，变成廉价避风港，住进一批特殊的居民 (法国国际广播电台)",
+    "url": "https://www.rfi.fr/cn/%E4%B8%93%E6%A0%8F%E6%A3%80%E7%B4%A2/%E6%B3%95%E5%9B%BD%E4%B8%96%E7%95%8C%E6%8A%A5/20260918-%E6%80%80%E6%9D%A5%E6%81%92%E5%A4%A7-%E9%AC%BC%E5%9F%8E-%EF%BC%8C%E5%8F%98%E6%88%90%E5%BB%89%E4%BB%B7%E9%81%BF%E9%A3%8E%E6%B8%AF%EF%BC%8C%E4%BD%8F%E8%BF%9B%E4%B8%80%E6%89%B9%E7%89%B9%E6%AE%8A%E7%9A%84%E5%B1%85%E6%B0%91",
+    "published_date": "2026年09月18日",
+    "source": "法国国际广播电台",
+    "first_seen_at": "2026-09-19T11:25:53+08:00",
+    "bucket_date": "2026-09-19",
+    "category": "国际",
+    "content": "怀来恒大“鬼城”，变成廉价避风港，住进一批特殊的居民 (法国国际广播电台)",
+    "content_ok": false,
+    "extract_error": "403 Client Error: Forbidden for url: https://www.rfi.fr/cn/%E4%B8%93%E6%A0%8F%E6%A3%80%E7%B4%A2/%E6%B3%95%E5%9B%BD%E4%B8%96%E7%95%8C%E6%8A%A5/20260918-%E6%80%80%E6%9D%A5%E6%81%92%E5%A4%A7-%E9%AC%BC%E5%9F%8E-%EF%BC%8C%E5%8F%98%E6%88%90%E5%BB%89%E4%BB%B7%E9%81%BF%E9%A3%8E%E6%B8%AF%EF%BC%8C%E4%BD%8F%E8%BF%9B%E4%B8%80%E6%89%B9%E7%89%B9%E6%AE%8A%E7%9A%84%E5%B1%85%E6%B0%91"
   }
 ]
